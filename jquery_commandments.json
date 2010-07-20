@@ -1,0 +1,16 @@
+{
+    "name": "jQuery Commandments",
+    "updated": "20-JULY-2010",
+    "commandments": [
+        "You shall not instantiate more than one jQuery object containing the same set of nodes.",
+        "You shall not re-query the DOM for a given selection at any time unless it is suspected that the returned collection will have changed since the last query.",
+        "You shall place scripts dependent on the readiness of the DOM at the bottom of the document.",
+        "You shall favor CSS3 selectors over jQuery's psuedo-classes and special filters.",
+        "You shall not use browser detection or browser inference.",
+        "You shall use the correct spelling of jQuery and honour the capitalisation of its Q in any correspondence relating to it.",
+        "You shall isolate any issues you have before posting to IRC or a forum, and especially before opening a ticket in the bug tracker.",
+        "You shall, when requiring a reference to a DOM node created by yourself, gain that reference prior to DOM injection.",
+        "You shall favor event delegation when the event in question propagates and when there are a substantial number of elements to be bound to.",
+        "You shall not use jQuery when a faster and terser solution exists in the native DOM API."
+    ]
+}
