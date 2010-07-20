@@ -5,7 +5,7 @@
         "You shall return a jQuery object unless the method is intended to return something else.",
         "You shall return the instance on which the method is being called unless you wish to mutate the collection, in which case you should use the pushStack method to return a new jQuery instance.",
         "You shall make configuration accessible under the plugin's namespace.",
-        "You shall make is possible to override the configuration on a per-call basis.",
+        "You shall make it possible to override the configuration on a per-call basis.",
         "You shall not use the globally defined dollar identifier.",
         "You shall not pollute namespaces unrelated to the plugin.",
         "You shall namespace any events binded to by the plugin.",
